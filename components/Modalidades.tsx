@@ -30,9 +30,16 @@ export default function Modalidades() {
     <section id="modalidades" className="py-16 bg-white scroll-mt-20">
       <div className="section-container">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-12 text-center">
-            Modalidades de Informe
-          </h2>
+          <div className="flex flex-col items-center mb-12">
+            <img 
+              src="/imagenes/proceso.svg" 
+              alt="Proceso de informe" 
+              className="w-64 h-48 mb-6"
+            />
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito text-center">
+              Modalidades de Informe
+            </h2>
+          </div>
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {modalidades.map((modalidad, index) => (

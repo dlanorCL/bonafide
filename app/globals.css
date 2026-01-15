@@ -17,6 +17,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
   font-family: 'Inter', system-ui, sans-serif;
+  background-image: url('/imagenes/marca-agua.svg');
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 600px 600px;
 }
 
 h1, h2, h3 {

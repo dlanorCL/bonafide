@@ -53,9 +53,13 @@ export default function Navbar() {
             <a 
               href="#inicio" 
               onClick={(e) => scrollToSection(e, '#inicio')}
-              className="text-white font-serif font-bold text-xl lg:text-2xl hover:text-gray-200 transition-colors"
+              className="flex items-center hover:opacity-80 transition-opacity"
             >
-              Bona Fide Consultores
+              <img 
+                src="/imagenes/logo.svg" 
+                alt="Bona Fide Consultores" 
+                className="h-12 w-auto"
+              />
             </a>
           </div>
           

@@ -1,0 +1,35 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Imagen: Análisis jurídico - Documentos con lupa -->
+  <g>
+    <!-- Documento principal -->
+    <rect x="80" y="40" width="200" height="240" rx="8" fill="#F5F5F5" stroke="#2D6A4F" stroke-width="2"/>
+    
+    <!-- Líneas de texto en el documento -->
+    <line x1="100" y1="70" x2="260" y2="70" stroke="#1B4332" stroke-width="3"/>
+    <line x1="100" y1="90" x2="240" y2="90" stroke="#D4D4D4" stroke-width="2"/>
+    <line x1="100" y1="105" x2="250" y2="105" stroke="#D4D4D4" stroke-width="2"/>
+    <line x1="100" y1="120" x2="230" y2="120" stroke="#D4D4D4" stroke-width="2"/>
+    <line x1="100" y1="135" x2="255" y2="135" stroke="#D4D4D4" stroke-width="2"/>
+    
+    <line x1="100" y1="160" x2="240" y2="160" stroke="#D4D4D4" stroke-width="2"/>
+    <line x1="100" y1="175" x2="250" y2="175" stroke="#D4D4D4" stroke-width="2"/>
+    <line x1="100" y1="190" x2="235" y2="190" stroke="#D4D4D4" stroke-width="2"/>
+    
+    <!-- Sello/firma -->
+    <circle cx="180" cy="240" r="25" fill="none" stroke="#2D6A4F" stroke-width="2" opacity="0.5"/>
+    <text x="180" y="246" font-family="Georgia, serif" font-size="10" fill="#2D6A4F" text-anchor="middle" opacity="0.5">LEGAL</text>
+    
+    <!-- Lupa -->
+    <circle cx="280" cy="180" r="50" fill="#FFF" stroke="#1B4332" stroke-width="4"/>
+    <circle cx="280" cy="180" r="40" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+    <line x1="315" y1="215" x2="355" y2="255" stroke="#1B4332" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Detalles en la lupa -->
+    <line x1="265" y1="170" x2="285" y2="170" stroke="#2D6A4F" stroke-width="1.5"/>
+    <line x1="265" y1="180" x2="290" y2="180" stroke="#2D6A4F" stroke-width="1.5"/>
+    <line x1="265" y1="190" x2="280" y2="190" stroke="#2D6A4F" stroke-width="1.5"/>
+    
+    <!-- Documento secundario (fondo) -->
+    <rect x="60" y="30" width="200" height="240" rx="8" fill="#E8E8E8" stroke="#74C69D" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>

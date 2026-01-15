@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  bonafide-web-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: bonafide-consultores-dev
+    ports:
+      - "8877:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=development
+    volumes:
+      # Montar el código fuente para hot reload
+      - ./app:/app/app
+      - ./components:/app/components
+      - ./public:/app/public
+      - ./lib:/app/lib
+      - ./tailwind.config.ts:/app/tailwind.config.ts
+      - ./next.config.js:/app/next.config.js
+      - ./postcss.config.js:/app/postcss.config.js
+      - ./tsconfig.json:/app/tsconfig.json
+      # Excluir node_modules y .next para usar los del contenedor
+      - /app/node_modules
+      - /app/.next
+    networks:
+      - reverse-proxy-network
+
+networks:
+  reverse-proxy-network:
+    external: true

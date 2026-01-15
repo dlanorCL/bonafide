@@ -1,0 +1,37 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Imagen: Protección patrimonial - Escudo protegiendo una propiedad -->
+  <g>
+    <!-- Escudo protector -->
+    <path d="M 200 30 L 280 70 L 280 160 C 280 200 240 230 200 250 C 160 230 120 200 120 160 L 120 70 Z" 
+          fill="#2D6A4F" opacity="0.2" stroke="#1B4332" stroke-width="4"/>
+    
+    <path d="M 200 40 L 270 75 L 270 155 C 270 190 235 217 200 235 C 165 217 130 190 130 155 L 130 75 Z" 
+          fill="none" stroke="#1B4332" stroke-width="3"/>
+    
+    <!-- Casa dentro del escudo -->
+    <g transform="translate(160, 100)">
+      <!-- Techo -->
+      <path d="M 40 20 L 10 45 L 70 45 Z" fill="#1B4332"/>
+      <!-- Estructura -->
+      <rect x="20" y="45" width="40" height="40" fill="#2D6A4F"/>
+      <!-- Puerta -->
+      <rect x="32" y="60" width="16" height="25" fill="#1B4332"/>
+      <!-- Ventanas -->
+      <rect x="24" y="50" width="10" height="8" fill="#74C69D"/>
+      <rect x="46" y="50" width="10" height="8" fill="#74C69D"/>
+    </g>
+    
+    <!-- Líneas de protección (ondas) -->
+    <path d="M 100 150 Q 90 170 100 190" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M 85 140 Q 75 165 85 190" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+    
+    <path d="M 300 150 Q 310 170 300 190" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M 315 140 Q 325 165 315 190" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+    
+    <!-- Checkmark de aprobación -->
+    <g transform="translate(175, 150)">
+      <circle cx="25" cy="25" r="20" fill="#40916C" opacity="0.9"/>
+      <path d="M 15 25 L 22 32 L 38 16" stroke="#FFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

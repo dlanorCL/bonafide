@@ -3,9 +3,16 @@ export default function ServicioPrincipal() {
     <section id="servicio" className="py-16 bg-white scroll-mt-20">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-6 text-center">
-            Informe Jurídico Inmobiliario Patrimonial
-          </h2>
+          <div className="flex flex-col items-center mb-6">
+            <img 
+              src="/imagenes/analisis-juridico.svg" 
+              alt="Análisis jurídico" 
+              className="w-80 h-60 mb-6"
+            />
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito text-center">
+              Informe Jurídico Inmobiliario Patrimonial
+            </h2>
+          </div>
           
           <p className="text-lg text-gris-grafito leading-relaxed mb-8 text-center max-w-4xl mx-auto">
             El <strong>Informe Jurídico Inmobiliario Patrimonial</strong> es un servicio de consultoría que culmina en 

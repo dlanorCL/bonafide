@@ -3,8 +3,15 @@ export default function Hero() {
   const whatsappUrl = `https://wa.me/56912345678?text=${whatsappMessage}`;
 
   return (
-    <section id="inicio" className="bg-gradient-to-br from-verde-institucional to-verde-claro text-white py-20 lg:py-32 pt-32">
-      <div className="section-container">
+    <section id="inicio" className="bg-gradient-to-br from-verde-institucional to-verde-claro text-white py-20 lg:py-32 pt-32 relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <img 
+          src="/imagenes/marca-agua.svg" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="section-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl lg:text-6xl font-serif font-bold mb-6">
             Bona Fide Consultores

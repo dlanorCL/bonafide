@@ -7,9 +7,13 @@ export default function Footer() {
       <div className="section-container">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-serif font-bold mb-4">
-              Bona Fide Consultores
-            </h3>
+            <div className="flex justify-center mb-4">
+              <img 
+                src="/imagenes/logo.svg" 
+                alt="Bona Fide Consultores" 
+                className="h-16 w-auto"
+              />
+            </div>
             <p className="text-lg mb-2">
               Análisis y Estrategia Legal
             </p>

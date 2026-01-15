@@ -31,9 +31,16 @@ export default function ComoFunciona() {
     <section id="como-funciona" className="py-16 bg-gris-claro scroll-mt-20">
       <div className="section-container">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-12 text-center">
-            ¿Cómo funciona?
-          </h2>
+          <div className="flex flex-col items-center mb-12">
+            <img 
+              src="/imagenes/consulta-legal.svg" 
+              alt="Cómo funciona" 
+              className="w-80 h-60 mb-6"
+            />
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito text-center">
+              ¿Cómo funciona?
+            </h2>
+          </div>
           
           <div className="space-y-6">
             {pasos.map((paso, index) => (

@@ -3,8 +3,15 @@ export default function LlamadoAccion() {
   const whatsappUrl = `https://wa.me/56912345678?text=${whatsappMessage}`;
 
   return (
-    <section id="contacto" className="py-20 bg-gradient-to-r from-verde-institucional to-verde-claro text-white scroll-mt-20">
-      <div className="section-container">
+    <section id="contacto" className="py-20 bg-gradient-to-r from-verde-institucional to-verde-claro text-white scroll-mt-20 relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <img 
+          src="/imagenes/proteccion-patrimonial.svg" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="section-container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-serif font-bold mb-6">
             Proteja su patrimonio inmobiliario con análisis jurídico especializado

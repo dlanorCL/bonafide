@@ -3,9 +3,20 @@ export default function Contexto() {
     <section className="py-16 bg-white">
       <div className="section-container">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-6 text-center">
-            Cuando el patrimonio inmobiliario está en juego, decidir sin análisis es un riesgo
-          </h2>
+          <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
+            <div className="md:w-1/3">
+              <img 
+                src="/imagenes/evaluacion-riesgos.svg" 
+                alt="Evaluación de riesgos" 
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="md:w-2/3">
+              <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-6">
+                Cuando el patrimonio inmobiliario está en juego, decidir sin análisis es un riesgo
+              </h2>
+            </div>
+          </div>
           
           <p className="text-lg text-gris-grafito leading-relaxed mb-6">
             Las decisiones inmobiliarias suelen implicar el activo patrimonial más relevante de una persona o empresa. 

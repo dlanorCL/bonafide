@@ -1,0 +1,63 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Patrón de marca de agua legal - balanza y elementos jurídicos -->
+  <g opacity="0.03">
+    <!-- Balanza central -->
+    <g transform="translate(300, 250)">
+      <rect x="90" y="280" width="120" height="8" fill="#1B4332"/>
+      <rect x="145" y="100" width="10" height="190" fill="#1B4332"/>
+      <rect x="50" y="100" width="200" height="8" fill="#1B4332"/>
+      
+      <!-- Platos -->
+      <path d="M 50 100 L 30 140 L 110 140 Z" fill="#2D6A4F"/>
+      <ellipse cx="70" cy="140" rx="40" ry="8" fill="#1B4332"/>
+      
+      <path d="M 250 100 L 230 140 L 310 140 Z" fill="#2D6A4F"/>
+      <ellipse cx="270" cy="140" rx="40" ry="8" fill="#1B4332"/>
+      
+      <!-- Líneas de suspensión -->
+      <line x1="50" y1="100" x2="70" y2="140" stroke="#1B4332" stroke-width="3"/>
+      <line x1="250" y1="100" x2="270" y2="140" stroke="#1B4332" stroke-width="3"/>
+    </g>
+    
+    <!-- Elementos decorativos - martillo de juez -->
+    <g transform="translate(100, 100)">
+      <rect x="0" y="80" width="60" height="15" rx="3" fill="#1B4332"/>
+      <rect x="25" y="0" width="10" height="90" fill="#2D6A4F"/>
+    </g>
+    
+    <g transform="translate(600, 500)">
+      <rect x="0" y="80" width="60" height="15" rx="3" fill="#1B4332"/>
+      <rect x="25" y="0" width="10" height="90" fill="#2D6A4F"/>
+    </g>
+    
+    <!-- Elementos de edificio/columnas (representando instituciones legales) -->
+    <g transform="translate(50, 500)">
+      <rect x="0" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="30" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="60" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="-5" y="-10" width="90" height="10" fill="#2D6A4F"/>
+    </g>
+    
+    <g transform="translate(630, 80)">
+      <rect x="0" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="30" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="60" y="0" width="20" height="150" fill="#1B4332"/>
+      <rect x="-5" y="-10" width="90" height="10" fill="#2D6A4F"/>
+    </g>
+    
+    <!-- Escudos/emblemas -->
+    <g transform="translate(120, 350)">
+      <path d="M 50 0 L 100 30 L 100 90 C 100 110 75 120 50 120 C 25 120 0 110 0 90 L 0 30 Z" 
+            fill="none" stroke="#1B4332" stroke-width="5"/>
+      <line x1="50" y1="40" x2="50" y2="100" stroke="#2D6A4F" stroke-width="4"/>
+      <line x1="20" y1="70" x2="80" y2="70" stroke="#2D6A4F" stroke-width="4"/>
+    </g>
+    
+    <g transform="translate(580, 350)">
+      <path d="M 50 0 L 100 30 L 100 90 C 100 110 75 120 50 120 C 25 120 0 110 0 90 L 0 30 Z" 
+            fill="none" stroke="#1B4332" stroke-width="5"/>
+      <line x1="50" y1="40" x2="50" y2="100" stroke="#2D6A4F" stroke-width="4"/>
+      <line x1="20" y1="70" x2="80" y2="70" stroke="#2D6A4F" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -30,9 +30,16 @@ export default function Ambitos() {
     <section id="ambitos" className="py-16 bg-gris-claro scroll-mt-20">
       <div className="section-container">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito mb-6 text-center">
-            Ámbitos de Intervención
-          </h2>
+          <div className="flex flex-col items-center mb-8">
+            <img 
+              src="/imagenes/inmobiliario.svg" 
+              alt="Ámbitos inmobiliarios" 
+              className="w-80 h-60 mb-6"
+            />
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-gris-grafito text-center">
+              Ámbitos de Intervención
+            </h2>
+          </div>
           
           <p className="text-lg text-gris-grafito text-center mb-12">
             Consultoría inmobiliaria patrimonial en materias como:

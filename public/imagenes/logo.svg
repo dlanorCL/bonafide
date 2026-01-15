@@ -1,0 +1,31 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Símbolo de balanza de justicia -->
+  <g transform="translate(10, 10)">
+    <!-- Base -->
+    <rect x="10" y="38" width="20" height="2" fill="#1B4332"/>
+    <!-- Columna -->
+    <rect x="18.5" y="15" width="3" height="25" fill="#1B4332"/>
+    <!-- Brazo horizontal -->
+    <rect x="5" y="15" width="30" height="2" fill="#1B4332"/>
+    <!-- Plato izquierdo -->
+    <path d="M 5 15 L 2 20 L 12 20 Z" fill="#2D6A4F"/>
+    <ellipse cx="7" cy="20" rx="5" ry="1.5" fill="#1B4332"/>
+    <!-- Plato derecho -->
+    <path d="M 35 15 L 32 20 L 42 20 Z" fill="#2D6A4F"/>
+    <ellipse cx="37" cy="20" rx="5" ry="1.5" fill="#1B4332"/>
+    <!-- Líneas de suspensión -->
+    <line x1="5" y1="15" x2="7" y2="20" stroke="#1B4332" stroke-width="0.5"/>
+    <line x1="35" y1="15" x2="37" y2="20" stroke="#1B4332" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Texto "BONA FIDE" -->
+  <text x="65" y="28" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1B4332">
+    BONA FIDE
+  </text>
+  <text x="65" y="44" font-family="Georgia, serif" font-size="10" fill="#2D6A4F">
+    CONSULTORES
+  </text>
+  
+  <!-- Línea decorativa -->
+  <line x1="65" y1="32" x2="185" y2="32" stroke="#2D6A4F" stroke-width="1"/>
+</svg>

@@ -28,8 +28,15 @@ export default function Rigor() {
   ];
 
   return (
-    <section className="py-16 bg-verde-institucional text-white">
-      <div className="section-container">
+    <section className="py-16 bg-verde-institucional text-white relative overflow-hidden">
+      <div className="absolute inset-0 opacity-5">
+        <img 
+          src="/imagenes/proteccion-patrimonial.svg" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="section-container relative z-10">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 text-center">
             Rigor, Transparencia y Confidencialidad
